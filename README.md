@@ -1,22 +1,23 @@
 # nuxttest
 
-> My phenomenal Nuxt.js project
+> 这是一个nuxt的测试demo  
+> 1.已经集成axios，并封装了axios的请求
 
 ## Build Setup
 
 ``` bash
-# install dependencies
-$ npm install
+# 首次使用请运行以下命令
+$ npm i
 
-# serve with hot reload at localhost:3000
+# 运行执行以下命令，本地部署地址为 localhost:3000
 $ npm run dev
 
-# build for production and launch server
+# 生成发布服务端执行以下命令
 $ npm run build
 $ npm start
 
-# generate static project
+# 生成静态项目执行以下命令
 $ npm run generate
 ```
 
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+有关nuxt的说明请点此了解 [Nuxt.js docs](https://nuxtjs.org).
