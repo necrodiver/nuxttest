@@ -1,7 +1,7 @@
-# PLUGINS
+# 配置插件  
+>  此目录是配置插件的，可以配置全局插件，一般像请求、样式，全局的在这配置
 
-**This directory is not required, you can delete it if you don't want to use it.**
-
-This directory contains your Javascript plugins that you want to run before mounting the root Vue.js application.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/guide/plugins).
+``` bash  
+# axios-helper.js 封装了axios的get和post请求，添加了必要的header，采用了md5创建了请求的加密方式  
+# element-ui.js 想着这块去掉，换成Vuetify，因为在移动端使用的，等有时间吧，先一步步来
+```
