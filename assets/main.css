@@ -1,0 +1,14 @@
+.page-enter-active,
+.page-leave-active {
+  transition: opacity .5s;
+}
+
+.page-enter,
+.page-leave-active {
+  opacity: 0;
+}
+
+.index-hw {
+  font-size: 25px;
+  font-weight: 700;
+}
